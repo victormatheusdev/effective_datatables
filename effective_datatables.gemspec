@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '>= 3.2.0'
   s.add_dependency 'coffee-rails'
-  s.add_dependency 'effective_bootstrap'
-  s.add_dependency 'effective_resources'
-  s.add_dependency 'sass'
+  s.add_dependency 'effective_bootstrap', '0.9.20'
+  s.add_dependency 'effective_resources', '1.8.9'
+  s.add_dependency 'sass', '3.7.4'
 end

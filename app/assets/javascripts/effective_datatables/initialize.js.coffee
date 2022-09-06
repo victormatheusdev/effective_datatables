@@ -56,7 +56,7 @@ initializeDataTables = (target) ->
       displayStart: datatable.data('display-start')
       iDisplayLength: datatable.data('display-length')
       language: datatable.data('language')
-      lengthMenu: [[5, 10, 25, 50, 100, 250, 500, 9999999], ['5', '10', '25', '50', '100', '250', '500', 'All']]
+      lengthMenu: [[5, 10, 25, 50, 100, 250, 500], ['5', '10', '25', '50', '100', '250', '500']]
       order: datatable.data('display-order')
       processing: true
       createdRow: (row, data, dataIndex) ->

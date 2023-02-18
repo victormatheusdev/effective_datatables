@@ -13,5 +13,6 @@
 //= require dataTables/responsive/responsive.bootstrap4
 //= require dataTables/rowReorder/dataTables.rowReorder
 //= require dataTables/rowReorder/rowReorder.bootstrap4
+//= require ./paging_plugin
 
 //= require_tree ./effective_datatables

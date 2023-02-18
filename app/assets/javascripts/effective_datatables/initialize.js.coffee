@@ -101,7 +101,7 @@ initializeDataTables = (target) ->
 
       serverSide: true
       scrollCollapse: true
-      pagingType: 'simple_numbers'
+      pagingType: 'input'
       initComplete: (settings) ->
         initializeButtons(this.api())
         initializeSearch(this.api())

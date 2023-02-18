@@ -11933,7 +11933,7 @@
 		 *      } );
 		 *    } )
 		 */
-		"sPaginationType": "simple_numbers",
+		"sPaginationType": "input",
 
 
 		/**

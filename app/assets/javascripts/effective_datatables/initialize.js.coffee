@@ -56,7 +56,7 @@ initializeDataTables = (target) ->
       displayStart: datatable.data('display-start')
       iDisplayLength: datatable.data('display-length')
       language: datatable.data('language')
-      pagingType: "input"
+      pagingType: "simple_numbers"
       lengthMenu: [[5, 10, 25, 50, 100, 250, 500], ['5', '10', '25', '50', '100', '250', '500']]
       order: datatable.data('display-order')
       processing: true
@@ -101,7 +101,7 @@ initializeDataTables = (target) ->
 
       serverSide: true
       scrollCollapse: true
-      pagingType: 'input'
+      pagingType: 'simple_numbers'
       initComplete: (settings) ->
         initializeButtons(this.api())
         initializeSearch(this.api())
